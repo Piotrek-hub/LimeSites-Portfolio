@@ -21,7 +21,6 @@ body{
     width: 100%;
     height: 100px;
     background: var(--white);
-    
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -40,12 +39,13 @@ body{
 }
 
 .text{
-    font-size: 2rem;
+    font-size: 2.5em;
 }
 
 .lime{
     color: var(--primary);
     font-weight: 300;
+    margin-left: 10px;
 }
 
 .sites{
