@@ -30,6 +30,7 @@ body{
 .logo{
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
 .logo img{
@@ -59,7 +60,9 @@ ul{
     justify-content: space-around;
     height: 100%;
 }
-
+li a{ 
+    border-bottom: 2px solid var(--white);
+}
 ul li a{
     display: block;
     text-decoration: none;
