@@ -38,10 +38,11 @@
     max-width: 370px;
     height: auto;
     margin-left: -200px;
+    z-index: 100;
 }
 .btn{ 
     width: 12em;
-    height: 3em;
+    height: 2.75em;
     cursor: pointer;
     outline: none;
     font-size: 1.25rem;
@@ -50,7 +51,6 @@
     transition: 0.3s;
     background: transparent;
     border: 1px solid transparent;
-
 }
 
 

@@ -9,6 +9,7 @@
     justify-content: space-around;
     position: fixed;
     box-shadow: 0px 1px 100px 0px rgba(0,0,0,0.1); 
+    z-index: 101;
     /* border-bottom: 1px solid var(--primary); */
 }
 
@@ -19,11 +20,18 @@
     cursor: pointer;
 }
 
+
+
 .logo img{
     width: 50px;
     height: 50px;
-    
+    transition: 1s;
 }
+
+.logo:hover img{
+    transform: rotate(360deg);
+}
+
 
 .text{
     font-size: 2.5em;
