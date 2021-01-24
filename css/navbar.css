@@ -51,14 +51,14 @@
 
 /*options*/
 
-ul{
+.options{
     list-style-type: none;
     display: flex;
     align-items: center;
     justify-content: space-around;
     height: 100%;
 }
-ul li a{
+.options li a{
     display: block;
     text-decoration: none;
     color: var(--black);
