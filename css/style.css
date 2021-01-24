@@ -12,10 +12,23 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 body{
     background: var(--white);
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.back-lime{
+    position: fixed;
+    top: 90vh;
+    left: 95vw;
+
+    width: 70px;
 }
 
 

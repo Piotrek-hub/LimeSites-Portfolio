@@ -35,9 +35,9 @@
     align-self: flex-end;
 }
 .started-page-lime-left { 
-    max-width: 450px;
+    max-width: 370px;
     height: auto;
-    margin-left: -250px;
+    margin-left: -200px;
 }
 .btn{ 
     width: 12em;
@@ -62,4 +62,12 @@
     border: none;
     color: var(--primary);
     border: 1px solid ;
+}
+
+.arrow{
+    width: 50px;
+    transform: rotate(90deg);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
 }

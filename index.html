@@ -10,15 +10,6 @@
   <title></title>
 </head>
 
-<!DOCTYPE html>
-<html lang="pl" dir="ltr">
-
-<head>
-  <meta charset="utf-8">
-  <link rel="stylesheet" href="style.css">
-  <title></title>
-</head>
-
 <body>
   <div class="navbar">
     <div class="logo">
@@ -39,23 +30,23 @@
     <img src="/assets/lime.png" alt="" srcset="" class="lime-photo started-page-lime-right">
     <div class="header-start">
       <span class="header-start-heading">Hey! Let us create your website</span>
-      <button class="btn started-page-btn">Let's Get Started!</button>
+      <a href="#about"><button class="btn started-page-btn">Let's Get Started!</button></a>
     </div>
     <img src="/assets/lime.png" alt="" srcset="" class="lime-photo started-page-lime-left">
-
+  <img src="assets/lime.png" class = "back-lime">
   </div>
-  <div class="about-us">
+  <div class="content" id = "about">
 
     <div class="container-div">
       <div class="container-div-text">
         <p>Something about us... </p>
-        We are two young learning web developers who love to create websites. In 2019 we started learning web development and we love to do it! 
+        We are two young learning web developers who love to create websites.In 2019 we started learning web development and we love to do it! 
       </div>
       <div class="container-div-image">
         <img src="assets/web_developer.svg">
       </div>
     </div>
-
+    
     <div class="container-div">
       <div class="container-div-image">
         <img src="assets/static_website.svg">
@@ -65,8 +56,8 @@
         All our projects are open source so you can see the code. If you are not ok with that your website won’t be open source. 
       </div>
     </div>
-
-    <div class="container-div">
+    <a href="#projects"><img src="assets/right.svg" class = "arrow"></a>
+    <div class="container-div" id = "projects">
       <div class="container-div-text">
         <p>Our projects</p>
         We give our best to make the project as good as possible. We can create portfolio for you or simple web app. 
@@ -75,7 +66,35 @@
         <img src="assets/static_assets.svg">
       </div>
     </div>
-
+    <div class="container-div">
+      <img src="assets/portfolio_website.svg" class = "project-image">
+      <img src="assets/portfolio_website.svg" class = "project-image">
+      <img src="assets/portfolio_website.svg" class = "project-image">
+    </div>
+    <a href="#prices"><img src="assets/right.svg" class = "arrow"></a>
+    <div class="container-div" id = "prices">
+      <div class="container-div-text">
+        <p>Cost of creating website </p>
+        Currently we are creating websites for <span>free</span> to gain experience and advertise.
+      </div>
+      <div class="container-div-image">
+        <img src="assets/payment.svg">
+      </div>
+    </div>
+    <div class="container-div">
+      <div class="container-div-image" style = "margin-top: 100px;">
+        <img src="assets/contact.svg" style = "width: 700px">
+      </div>
+      <div class="container-div-text">
+        <p>Contact</p>
+        All our projects are open source so you can see the code. If you are not ok with that your website won’t be open source. 
+        <br/>
+        <img src="assets/lime.png" class = "contact-logos">
+        <img src="assets/lime.png" class = "contact-logos">
+        <img src="assets/lime.png" class = "contact-logos">
+      </div>
+    </div>
+    <img src="assets/right.svg" class = "arrow" style = "transform: rotate(270deg); margin-top: 100px;">
   </div>
 </body>
 
