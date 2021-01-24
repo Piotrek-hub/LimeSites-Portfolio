@@ -2,6 +2,7 @@
 
 :root{
     --primary: #5CAC24;
+    --secondary: #ffe477;
     --black: #212121;
     --white: #fafafa;
 }
@@ -27,7 +28,6 @@ body{
     position: fixed;
     top: 90vh;
     left: 95vw;
-
     width: 70px;
 }
 

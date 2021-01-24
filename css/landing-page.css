@@ -50,24 +50,44 @@
     transition: 0.3s;
     background: transparent;
     border: 1px solid transparent;
-    
+
 }
+
+
 .started-page-btn{ 
     margin-top: 15px;
     color: var(--white);
     background: var(--primary);
+    animation-name: button-animation;
+    animation-duration: 1s;
 }
 .started-page-btn:hover{ 
     background: var(--white);
-    border: none;
+    border: 1px solid var(--primary);
     color: var(--primary);
-    border: 1px solid ;
+}
+
+@keyframes button-animation{
+   50% {
+        background: var(--secondary);
+        color: var(--black);
+    }
+
+    100% {
+        background: var(--primary);
+        color: var(--white);
+    }
+
 }
 
 .arrow{
     width: 50px;
-    transform: rotate(90deg);
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 100px;
+    position: normal;
+}
+
+.last-arrow{
+    transform: rotate(180deg);
 }
