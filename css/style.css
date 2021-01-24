@@ -11,8 +11,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    overflow-x: hidden;
     scroll-behavior: smooth;
+    text-decoration: none;
 }
 
 body{

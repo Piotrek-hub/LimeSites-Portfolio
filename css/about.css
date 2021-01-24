@@ -18,7 +18,7 @@
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-top: 100px;
+    padding-top: 100px;
 }
 
 .container-div-text{
@@ -63,8 +63,4 @@
 .container-div-text span{
     color: var(--primary);
     font-weight: 700;
-}
-
-#prices{
-    padding-top: 40px;
 }
