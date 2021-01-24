@@ -14,6 +14,7 @@
     font-family: 'Roboto', sans-serif;
     scroll-behavior: smooth;
     text-decoration: none;
+    scrollbar-width: none;  /* Firefox */
 }
 
 body{
@@ -25,18 +26,6 @@ body{
     display: none;
 }
 
-.back-lime{
-    position: fixed;
-    top: 90vh;
-    left: 95vw;
-    max-width: 70px;
-    height: 70px;
-    transition: 0.5s;
-}
-
-.back-lime:hover{
-    transform: rotate(360deg);
-}
 
 
 
