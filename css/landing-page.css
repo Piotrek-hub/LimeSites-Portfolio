@@ -15,7 +15,7 @@
     font-weight: 700;
     height: 100px;
     animation-name: example;
-    animation-duration: 1s;
+    animation-duration: 2s;
 }
 
 @keyframes example{
@@ -33,12 +33,25 @@
     margin-right: -150px;
     z-index: -2;
     align-self: flex-end;
+    animation-name: lime-animation;
+    animation-duration: 10s;
 }
 .started-page-lime-left { 
     max-width: 370px;
     height: auto;
     margin-left: -200px;
     z-index: 100;
+    animation-name: lime-animation;
+    animation-duration: 5s;
+}
+
+@keyframes lime-animation{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
 }
 .btn{ 
     width: 12em;
