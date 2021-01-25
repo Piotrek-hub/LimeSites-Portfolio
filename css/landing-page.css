@@ -14,7 +14,7 @@
     font-size: 4rem;
     font-weight: 700;
     height: 100px;
-    animation-name: example;
+    animation-name: main-page-animation;
     animation-duration: 2s;
 }
 
@@ -23,26 +23,21 @@
     width: 350px;
     z-index: -2;
     align-self: flex-end;
-    animation-name: lime-animation;
-    animation-duration: 2s;
 }
 .started-page-lime-left { 
     max-width: 370px;
     height: auto;
     margin-left: -200px;
     z-index: 100;
-    animation-name: lime-animation;
-    animation-duration: 5s;
 }
 
 .main-page-image{
-    width: 15em;
+    width: 25em;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50px;
-    animation-name: main-page-animation;
+    margin-top: 70px;
+    animation-name: main-page-image-animation;
     animation-duration: 2s;
-    animation-delay: 1s;
     opacity: 1;
 }
 
@@ -73,10 +68,6 @@
     border: 1px solid var(--primary);
     color: var(--primary);
 }
-
-
-
-
 
 
 .back-lime{

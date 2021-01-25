@@ -20,9 +20,9 @@
  
  }
 
- @keyframes example{
+ @keyframes main-page-animation{
     from{
-        margin-top: -250px;
+        margin-top: -100px;
     }
 
     to{
@@ -31,7 +31,7 @@
 }
 
 
-@keyframes main-page-animation{
+@keyframes main-page-image-animation{
     from {
         opacity: 0;
     }
@@ -41,6 +41,17 @@
     }
 }
 
+
+@keyframes content-animation{
+    from{
+        margin-top: 100px;
+        opacity: 0;
+    }
+    to{
+        margin-top: 0;
+        opacity: 1;
+    }
+}
 
 
  @media only screen and (max-width: 1400px){

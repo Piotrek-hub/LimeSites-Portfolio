@@ -59,8 +59,8 @@
     justify-content: space-evenly;
 }
 .contact-logos {
-    width: 100px;
-    margin-top: 0px;
+    height: 80px;
+    margin-top: 10px;
 }
 .arrow-link{  
     margin-top: 50px;
@@ -79,4 +79,9 @@
 
 .projects-galery{ 
     margin-top: 100px;
+}
+
+.container-animation{
+    animation-name: content-animation;
+    animation-duration: 1s;
 }
