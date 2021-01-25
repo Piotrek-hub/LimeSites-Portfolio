@@ -31,6 +31,16 @@
 }
 
 
+@keyframes main-page-animation{
+    from {
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+
 
 
  @media only screen and (max-width: 1400px){

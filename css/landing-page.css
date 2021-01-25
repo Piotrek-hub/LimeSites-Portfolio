@@ -40,6 +40,10 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
+    animation-name: main-page-animation;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    opacity: 1;
 }
 
 
