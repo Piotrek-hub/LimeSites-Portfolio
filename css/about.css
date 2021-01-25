@@ -35,10 +35,12 @@
 .container-div-image{
     max-width: 700px;
     height: auto;
+    margin-top: 100px;
 }
 
 .container-div-image img{
     max-width: 450px;
+    width: 700px;
 }
 
 
@@ -51,15 +53,19 @@
 .arrow{
     margin-top: 80px;
     user-select: none;
-}
-
-.contact-logos{
-    margin-top: 50px;
-    width: 80px;
-    margin-right: 40px;
+    transform: rotate(180deg); margin-top: 100px;"
 }
 
 .container-div-text span{
     color: var(--primary);
     font-weight: 700;
+}
+.contact-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.contact-logos {
+    width: 100px;
+    margin-top: 30px;
 }
