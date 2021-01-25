@@ -18,15 +18,7 @@
     animation-duration: 2s;
 }
 
-@keyframes example{
-    from{
-        margin-top: -250px;
-    }
 
-    to{
-        margin-top: 0px;
-    }
-}
 .started-page-lime-right { 
     width: 400px;
     margin-top: -100px;
@@ -34,7 +26,7 @@
     z-index: -2;
     align-self: flex-end;
     animation-name: lime-animation;
-    animation-duration: 10s;
+    animation-duration: 2s;
 }
 .started-page-lime-left { 
     max-width: 370px;
@@ -45,14 +37,14 @@
     animation-duration: 5s;
 }
 
-@keyframes lime-animation{
-    from{
-        transform: rotate(0deg);
-    }
-    to{
-        transform: rotate(360deg);
-    }
+.main-page-image{
+    width: 15em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
 }
+
+
 .btn{ 
     width: 12em;
     height: 2.75em;
@@ -80,18 +72,7 @@
     color: var(--primary);
 }
 
-@keyframes button-animation{
-   50% {
-        background: var(--secondary);
-        color: var(--black);
-    }
 
-    100% {
-        background: var(--primary);
-        color: var(--white);
-    }
-
-}
 
 .arrow{
     width: 50px;

@@ -1,0 +1,82 @@
+@keyframes lime-animation{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes button-animation{
+    50% {
+         background: var(--secondary);
+         color: var(--black);
+     }
+ 
+     100% {
+         background: var(--primary);
+         color: var(--white);
+     }
+ 
+ }
+
+ @keyframes example{
+    from{
+        margin-top: -250px;
+    }
+
+    to{
+        margin-top: 0px;
+    }
+}
+
+
+
+
+ @media only screen and (max-width: 1400px){
+
+        .header-start-heading{
+            font-size: 5vw;
+        }
+
+        .started-page-lime-left{
+            max-width: 270px;
+            margin-left: -100px;
+        }
+
+        
+        .started-page-lime-right{
+            max-width: 309px;
+            margin-right: -100px;
+        }
+
+        .container-div{
+            flex-direction: column;
+        }
+
+        .container-div-image img{
+            width: 50vw;
+            height: auto;
+            margin-top: 40px;
+            margin-bottom: 40px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .container-div-text p{
+            font-size: 2rem;
+        }
+
+        .container-div-text{
+            font-size: 1rem;
+            width: 50%;
+        }
+
+ }
+
+ @media only screen and (max-width: 600px){
+     
+    .started-page{
+        height: 40vh;
+    }
+ }
