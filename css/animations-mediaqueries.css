@@ -1,11 +1,11 @@
-@keyframes lime-animation{
+/* @keyframes lime-animation{
     from{
         transform: rotate(0deg);
     }
     to{
         transform: rotate(360deg);
     }
-}
+} */
 
 @keyframes button-animation{
     50% {

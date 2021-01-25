@@ -20,9 +20,7 @@
 
 
 .started-page-lime-right { 
-    width: 400px;
-    margin-top: -100px;
-    margin-right: -150px;
+    width: 350px;
     z-index: -2;
     align-self: flex-end;
     animation-name: lime-animation;
@@ -74,16 +72,8 @@
 
 
 
-.arrow{
-    width: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 100px;
-}
 
-.last-arrow{
-    transform: rotate(180deg);
-}
+
 
 .back-lime{
     position: fixed;

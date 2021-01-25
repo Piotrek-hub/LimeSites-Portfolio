@@ -1,16 +1,16 @@
 .content{
     width: 100%;
-    height: 340vh;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: flex-start;
+    margin-top: 200px;
 }
 
 /*containers */
 
 .container-div{
-    width: 100vw;
+    width: 100%;
     height: auto;
     display: flex;
     background: var(--white);
@@ -49,12 +49,6 @@
     user-select: none;
 }
 
-.arrow{
-    margin-top: 80px;
-    user-select: none;
-    /* transform: rotate(180deg); margin-top: 100px; */
-}
-
 .container-div-text span{
     color: var(--primary);
     font-weight: 700;
@@ -67,4 +61,22 @@
 .contact-logos {
     width: 100px;
     margin-top: 0px;
+}
+.arrow-link{  
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+}
+.first-arrow {
+    margin-top: 100px;
+}
+.arrow-link:last-child{
+    transform: rotate(180deg); 
+}
+
+.projects-galery{ 
+    margin-top: 100px;
 }
