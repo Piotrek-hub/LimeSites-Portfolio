@@ -11,7 +11,8 @@ document.querySelector('.dark-mode-test').addEventListener('click', () => {
         darkModeBtn.textContent = 'LightMode';
         navbar.style.boxShadow = 'none';
         arrows.forEach(arrow => {
-            arrow.src = 'assets/down-arrow-white.svg';
+            arrow.src = 'assets/white-arrow.png';
+            arrow.classList.add('new-arrow');
         })
     }else{ 
         document.body.style.setProperty('--white', '#fafafa');

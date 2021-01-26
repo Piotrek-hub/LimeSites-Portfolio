@@ -25,6 +25,7 @@ body{
     display: none;
 }
 
+a{text-decoration: none;}a:link, a:visited, a:hover, a:active {color: var(--black);}
 
 
 

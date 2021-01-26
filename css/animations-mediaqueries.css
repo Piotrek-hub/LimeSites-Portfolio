@@ -56,21 +56,6 @@
 
  @media only screen and (max-width: 1400px){
 
-        .header-start-heading{
-            font-size: 5vw;
-        }
-
-        .started-page-lime-left{
-            max-width: 270px;
-            margin-left: -100px;
-        }
-
-        
-        .started-page-lime-right{
-            max-width: 309px;
-            margin-right: -100px;
-        }
-
         .container-div{
             flex-direction: column;
         }
@@ -95,9 +80,18 @@
 
  }
 
- @media only screen and (max-width: 600px){
+ @media only screen and (max-width: 500px){
      
     .started-page{
         height: 40vh;
     }
- }
+    .started-page-lime-right { 
+       opacity: 0;
+    }
+    .landing-page-windows{
+        opacity: 0;
+    }
+    .started-page-lime-left{
+        opacity: 0;
+     }
+}

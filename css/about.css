@@ -71,6 +71,12 @@
     margin-right: auto;
     height: 50px;
 }
+.new-arrow {
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+}
 .first-arrow {
     margin-top: 100px;
 }

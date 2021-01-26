@@ -69,3 +69,19 @@ li a:hover{
 }
 
 /*mode change*/
+
+.dark-mode-btn {
+    outline: none;
+    top: 10%;
+    left: 1%;
+    position: absolute;
+    width: 120px;
+    height: 30px;
+    border-radius: 4px;
+    border: none;
+    color: var(--white);
+    background: var(--primary);
+    animation-name: button-animation;
+    animation-duration: 1s;
+    font-size: 
+}

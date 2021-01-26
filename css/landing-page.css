@@ -21,9 +21,10 @@
 
 
 .started-page-lime-right { 
-    width: 350px;
+    width: 300px;
     z-index: -2;
     align-self: flex-end;
+    margin-top: 8vh;
 }
 .started-page-lime-left { 
     max-width: 370px;
@@ -78,7 +79,6 @@
     max-width: 70px;
     height: 70px;
     transition: 0.5s;
-    
 }
 
 .back-lime:hover{
