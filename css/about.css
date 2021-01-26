@@ -86,3 +86,13 @@
     animation-name: content-animation;
     animation-duration: 1s;
 }
+
+.contact{
+    text-align: center;
+}
+
+.contact p{
+    font-size: 20px;
+    font-weight: 400;
+    display: none;
+}

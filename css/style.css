@@ -15,6 +15,7 @@
     scroll-behavior: smooth;
     text-decoration: none;
     scrollbar-width: none;  /* Firefox */
+    transition: 0.3s;
 }
 
 body{
