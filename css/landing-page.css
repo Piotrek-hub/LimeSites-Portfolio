@@ -16,6 +16,7 @@
     height: 100px;
     animation-name: example;
     animation-duration: 2s;
+    color: var(--black);
 }
 
 

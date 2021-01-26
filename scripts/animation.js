@@ -1,8 +1,16 @@
-const contactPhotoImg = [...document.querySelectorAll('.contact-logos')];
+let activeDarkMode = false;
 
-
-/* 
-contactPhotoImg[0].addEventListener('mouseover', showPhoto)
-contactPhotoImg[0].addEventListener('mouseover', hidePhoto) */
-
-
+document.querySelector('.dark-mode-test').addEventListener('click', () => { 
+    activeDarkMode = !activeDarkMode;
+    if(activeDarkMode)
+    {
+        document.body.style.setProperty('--white', '#212121');
+        document.body.style.setProperty('--black', '#fafafa');
+        document.querySelector('.dark-mode-test').textContent = 'LightMode';
+        document.querySelector('.navbar').style.boxShadow = 'none';
+    }else{ 
+        document.body.style.setProperty('--white', '#fafafa');
+        document.body.style.setProperty('--black', '#212121');
+        document.querySelector('.dark-mode-test').textContent = 'DarkMode';
+    }
+});

@@ -5,6 +5,7 @@
     flex-direction: column;
     justify-content: flex-start;
     margin-top: 200px;
+    color: var(--black);
 }
 
 /*containers */
