@@ -15,7 +15,6 @@
     font-weight: 700;
     height: 100px;
     animation-name: main-page-animation;
-    /* text-shadow: 5px 5px 0px #000000; */
     animation-duration: 2s;
     color: var(--black);
 }

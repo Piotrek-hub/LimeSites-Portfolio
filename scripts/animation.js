@@ -10,6 +10,7 @@ document.querySelector('.dark-mode-test').addEventListener('click', () => {
         document.body.style.setProperty('--black', '#fafafa');
         darkModeBtn.textContent = 'LightMode';
         navbar.style.boxShadow = 'none';
+        document.querySelector('.header-start-heading').style.textShadow = "5px 5px 0px #000000";
         arrows.forEach(arrow => {
             arrow.src = 'assets/white-arrow.png';
             arrow.classList.add('new-arrow');
@@ -19,6 +20,7 @@ document.querySelector('.dark-mode-test').addEventListener('click', () => {
         document.body.style.setProperty('--black', '#212121');
         darkModeBtn.textContent = 'DarkMode';
         navbar.style.boxShadow = '0px 1px 100px 0px rgba(0,0,0,0.1)';
+        document.querySelector('.header-start-heading').style.textShadow = "";
         arrows.forEach(arrow => {
             arrow.src = 'assets/arrow.svg';
         })
