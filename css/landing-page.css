@@ -15,6 +15,7 @@
     font-weight: 700;
     height: 100px;
     animation-name: main-page-animation;
+    /* text-shadow: 5px 5px 0px #000000; */
     animation-duration: 2s;
     color: var(--black);
 }
@@ -60,7 +61,7 @@
 
 .started-page-btn{ 
     margin-top: 15px;
-    color: var(--white);
+    color: white;
     background: var(--primary);
     animation-name: button-animation;
     animation-duration: 1s;

@@ -19,6 +19,8 @@ document.querySelector('.dark-mode-test').addEventListener('click', () => {
         document.body.style.setProperty('--black', '#212121');
         darkModeBtn.textContent = 'DarkMode';
         navbar.style.boxShadow = '0px 1px 100px 0px rgba(0,0,0,0.1)';
-        arrow.src = 'assets/arrow.svg';
+        arrows.forEach(arrow => {
+            arrow.src = 'assets/arrow.svg';
+        })
     }
 });
