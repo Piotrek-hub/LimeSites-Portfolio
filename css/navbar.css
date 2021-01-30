@@ -30,21 +30,12 @@
 
 
 .text{
-    font-size: 2.5em;
-    
-}
-
-.first-part-logo{
-    color: var(--primary);
-    font-weight: 600;
-    margin-left: 10px;
-}
-
-.second-part-logo{
-    font-weight: 300;
-    font-size: 0.8em;
     color: var(--black);
+    font-size: 2.4em;
+    font-weight: 700;
+    margin-left: 1vw;
 }
+
 
 /*options*/
 
@@ -73,17 +64,22 @@ li a:hover{
 
 .dark-mode-btn {
     outline: none;
-    top: 10%;
-    left: 1%;
-    position: absolute;
     width: 120px;
-    height: 30px;
+    height: 40px;
     border-radius: 4px;
     border: none;
     color: var(--white);
     background: var(--primary);
-    animation-name: button-animation;
+    /* animation-name: button-animation; */
     animation-duration: 1s;
+    transition: 0.3s;
+    font-size: 0.9em;
+}
+
+.dark-mode-btn:hover{
+    background: var(--white);
+    border: 1px solid var(--primary);
+    color: var(--primary);
 }
 
 .hamburger-menu{

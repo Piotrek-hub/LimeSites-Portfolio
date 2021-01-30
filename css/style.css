@@ -3,7 +3,7 @@
 :root{
     --primary: #5CAC24;
     --secondary: #ffe477;
-    --black: #212121;
+    --black: #272727;
     --white: #fafafa;
 }
 
@@ -15,6 +15,7 @@
     scroll-behavior: smooth;
     text-decoration: none;
     scrollbar-width: none;  /* Firefox */
+    transition: all 0.3s ease;
 }
 
 body{

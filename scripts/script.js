@@ -8,5 +8,12 @@ window.addEventListener('scroll', function() {
     
   });
 
+var typed = new Typed('.header-start-heading', {
+  strings: [
+    "Stwórzmy idealną strone dla Ciebie!"
+  ],
+  smartBackspace: false,
+  typeSpeed: 30
+});
 
 

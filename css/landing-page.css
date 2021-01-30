@@ -31,6 +31,8 @@
     height: auto;
     margin-left: -200px;
     z-index: 100;
+    animation-name: lime-animation;
+    animation-duration: 2s;
 }
 
 .main-page-image{
@@ -62,7 +64,7 @@
     margin-top: 15px;
     color: white;
     background: var(--primary);
-    animation-name: button-animation;
+    /* animation-name: button-animation; */
     animation-duration: 1s;
 }
 .started-page-btn:hover{ 
@@ -83,4 +85,8 @@
 
 .back-lime:hover{
     transform: rotate(360deg);
+}
+
+.typed-cursor {
+    display: none;
 }

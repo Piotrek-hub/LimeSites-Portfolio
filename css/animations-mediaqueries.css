@@ -1,11 +1,11 @@
-/* @keyframes lime-animation{
+ @keyframes lime-animation{
     from{
         transform: rotate(0deg);
     }
     to{
         transform: rotate(360deg);
     }
-} */
+} 
 
 @keyframes button-animation{
     50% {
@@ -54,6 +54,8 @@
 }
 
 
+
+
  @media only screen and (max-width: 1200px){
 
         .header-start-heading{
@@ -94,7 +96,7 @@
         font-size: 2em;
     }
     .started-page{
-        height: 40vh;
+        height: 20vh;
     }
     .started-page-lime-right { 
        max-width: 200px;
@@ -110,5 +112,9 @@
      .hamburger-menu{
          display: block;
      }
+
+     /* .content{
+
+     } */
 
   }
