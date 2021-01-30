@@ -11,7 +11,7 @@
     flex-direction: column;
 }
 .header-start-heading{
-    font-size: 4rem;
+    font-size: 3.7rem;
     font-weight: 700;
     height: 100px;
     animation-name: main-page-animation;
@@ -37,7 +37,7 @@
     width: 25em;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 70px;
+    margin-top: 50px;
     animation-name: main-page-image-animation;
     animation-duration: 2s;
     opacity: 1;
@@ -45,7 +45,7 @@
 
 
 .btn{ 
-    width: 12em;
+    width: 11em;
     height: 2.75em;
     cursor: pointer;
     outline: none;

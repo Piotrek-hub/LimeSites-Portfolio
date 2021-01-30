@@ -1,6 +1,6 @@
 .navbar{
     width: 100%;
-    height: 8vh;
+    height: 9vh;
     background: var(--white);
     display: flex;
     align-items: center;
@@ -34,14 +34,15 @@
     
 }
 
-.lime{
+.first-part-logo{
     color: var(--primary);
-    font-weight: 300;
+    font-weight: 600;
     margin-left: 10px;
 }
 
-.sites{
-    font-weight: 700;
+.second-part-logo{
+    font-weight: 300;
+    font-size: 0.8em;
     color: var(--black);
 }
 
@@ -83,5 +84,10 @@ li a:hover{
     background: var(--primary);
     animation-name: button-animation;
     animation-duration: 1s;
-    font-size: 
+}
+
+.hamburger-menu{
+    width: 40px;
+    height: auto;
+    display: none;
 }
