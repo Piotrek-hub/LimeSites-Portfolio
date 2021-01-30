@@ -87,7 +87,7 @@
 
  }
 
-
+/* Telefon */
 @media only screen 
   and (min-device-width: 320px) 
   and (max-device-width: 480px)
@@ -97,6 +97,14 @@
     }
     .started-page{
         height: 20vh;
+    }
+    .logo{
+        transform: scale(2);
+    }
+
+    .dark-mode-btn{
+        transform: scale(1.5);
+        margin: 20px;
     }
     .started-page-lime-right { 
        max-width: 200px;
@@ -111,10 +119,38 @@
 
      .hamburger-menu{
          display: block;
+         margin-left: 40px;
+     }
+     .header-start-heading{
+         font-size: 3rem;
+         padding: 1em;
      }
 
-     /* .content{
+     .btn{
+        width: 11em;
+        height: 2.5em;
+        font-size: 2rem;
+     }
 
-     } */
+     .container-div{
+         margin-top: 10vh;
+     }
+     .container-div-text p{
+        font-size: 2.5rem;
+        
+    }
+
+     .container-div-text{
+         font-size: 1.8rem;
+         width: 80%;
+     }
+
+     .container-div-image{
+         width: 90%;
+     }
+
+     .container-div-image img{
+        width: 100%;
+    }
 
   }
