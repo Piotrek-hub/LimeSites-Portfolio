@@ -83,8 +83,48 @@ li a:hover{
     color: var(--primary);
 }
 
-.hamburger-menu{
-    width: 40px;
-    height: auto;
-    display: none;
+
+
+.hamburger {
+    width: 50px;
+    height: 45px;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    margin-left: -25px;
+    top: 50%;
+    margin-top: -22.5px;
+}
+.hamburger span {
+    display: block;
+    position: absolute;
+    height: 4.44px;
+    width: 100%;
+    background: var(--primary) none repeat scroll 0% 0%;
+    opacity: 1;
+    right: 0px;
+    transition: all 0.25s ease-in-out 0s;
+    transform: rotate(0deg);
+}
+.hamburger span:nth-child(1) {
+    margin-top: 0px;
+}
+.hamburger span:nth-child(2) {
+    margin-top: 16px;
+    margin-right: 0px;
+}
+.hamburger span:nth-child(3) {
+    margin-top: 32px;
+}
+.hamburger.opened span:nth-child(1) {
+    transform: rotate(135deg);
+    margin-top: 16px;
+}
+.hamburger.opened span:nth-child(2) {
+    opacity: 0;
+    right: -75px;
+}
+.hamburger.opened span:nth-child(3) {
+    transform: rotate(-135deg);
+    margin-top: 16px;
 }

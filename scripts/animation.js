@@ -26,3 +26,7 @@ document.querySelector('.dark-mode-test').addEventListener('click', () => {
         })
     }
 });
+
+document.querySelector('.hamburger').addEventListener('click', function(){
+    this.classList.toggle('opened');
+})
