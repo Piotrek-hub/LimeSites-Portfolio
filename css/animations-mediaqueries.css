@@ -154,3 +154,31 @@
     }
 
   }
+
+@media only screen and (max-width: 780px){
+    .header-start-heading{
+        font-size: 4vw;
+    }
+
+    .logo img{
+        max-width: 40px;
+        height: auto;
+    }
+    .to-none{
+        display: none;
+    }
+    .hamburger-menu{
+        display: block;
+    }
+
+    .started-page-lime-left{
+        max-width: 200px;
+        height: auto;
+        margin-left: -100px;
+    }
+    .started-page-lime-right{
+        max-width: 200px;
+        height: auto;
+        padding-bottom: 40px; 
+    }
+}

@@ -74,6 +74,7 @@ li a:hover{
     animation-duration: 1s;
     transition: 0.3s;
     font-size: 0.9em;
+    /* font-family: 'Roboto', sans-serif; */
 }
 
 .dark-mode-btn:hover{

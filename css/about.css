@@ -105,3 +105,8 @@
     font-weight: 400;
     display: none;
 }
+
+.text-bold{
+    color: var(--black) !important ; 
+    font-weight: bold;
+}
