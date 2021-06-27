@@ -1,0 +1,30 @@
+
+.hello-section{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.header{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.header span{
+    color: var(--green);
+}
+
+.img{
+    max-height: 30vh;
+    width: auto;
+}
+
+.svg{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+}

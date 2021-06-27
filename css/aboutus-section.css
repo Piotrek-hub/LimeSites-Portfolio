@@ -1,0 +1,20 @@
+
+.aboutus-section{
+    height: 80vh;
+    padding: 0px 50px;
+    background: var(--green);
+    text-align: center;
+}
+
+.aboutus-header{
+    font-size: 40px;
+    color: var(--white);
+    font-weight: bold;
+    margin-bottom:6vh;
+}
+
+.aboutus-section span{
+    font-size: 25px;
+    color: var(--white);
+    margin: 100px;
+}

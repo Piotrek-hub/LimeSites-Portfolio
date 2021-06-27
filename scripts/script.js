@@ -1,30 +1,12 @@
-function animate(div, text){
-  console.log('dziala funkjca')
-  var typed = new Typed(div, {
-    strings: [
-      text
-    ],
-    smartBackspace: false,
-    typeSpeed: 30
-  });
-}
+const logo = document.querySelector('.navbar-logo')
+const button = document.querySelector('.button')
+const header = document.querySelector('.header')
+const image = document.querySelector('.hello-image')
+const wave = document.querySelector('.svg')
 
-
-window.addEventListener('scroll', function(unchecked) {
-    let scroll = window.pageYOffset;
-    if(scroll >= 200){
-      document.querySelector('.container-div').classList.add('container-animation');
-    }
-  });
-
-
-
-document.querySelector('body').onload = function(){
-  animate('.header-start-heading', 'Stwórzmy idealną strone dla Ciebie!')
-}
-
-
-
-
-
-
+const tl = new TimelineMax({delay: 0})
+tl.fromTo(logo, 0.7, {x: '100', opacity: 0}, {x: '0', opacity: 1})
+.fromTo(button, 0.7, {x: '100', opacity: 0}, {x: '0', opacity: 1})
+.fromTo(header, 0.7, {x: '100', opacity: 0}, {x: '0', opacity: 1})
+.fromTo(image, 1.2, {opacity: 0}, {opacity: 1})
+.fromTo(wave, 1.2, {opacity: 0}, {opacity: 1})

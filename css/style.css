@@ -1,10 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;600;700&display=swap');
+@import './navbar.css';
+@import './button.css';
+@import './hello-section.css';
+@import './aboutus-section.css';
+@import './contact-section.css';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 :root{
-    --primary: #5CAC24;
-    --secondary: #ffe477;
-    --black: #272727;
+    --green: #5CAC24;
+    --yellow: #ffe477;
+    --black: #0A0A0A;
     --white: #fafafa;
 }
 
@@ -12,12 +16,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font-family: 'JetBrains Mono', sans-serif; */
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
     text-decoration: none;
-    scrollbar-width: none;  /* Firefox */
-    transition: all 0.3s ease;
+    scrollbar-width: none;  
 }
 
 body{
@@ -29,6 +31,8 @@ body{
 }
 
 a{text-decoration: none;}a:link, a:visited, a:hover, a:active {color: var(--black);}
+
+
 
 
 

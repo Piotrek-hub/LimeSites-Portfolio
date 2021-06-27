@@ -1,0 +1,14 @@
+.button{
+    border: 2px solid var(--green);
+    width: 8vw;
+    background: none;
+    color: var(--green);
+    padding: 10px;
+    font-size: 16px;
+    transition: 0.3 ease-in-out;
+}
+
+.button:hover{
+    background: var(--green);
+    color: var(--white);
+}

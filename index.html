@@ -1,141 +1,52 @@
 <!DOCTYPE html>
-<html lang="pl" dir="ltr">
-
+<html lang="pl">
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/navbar.css">
-  <link rel="stylesheet" href="css/landing-page.css">
-  <link rel="stylesheet" href="css/about.css">
-  <link rel="stylesheet" href="css/animations-mediaqueries.css">
-  <link rel="stylesheet" href="css/Footer.css">
-  <link rel = "icon" href = "assets/lime.png">
-  
-  <title>Portfolio</title>
+  <title>LimeSites</title>
 </head>
-
 <body>
   <div class="navbar">
-    <div class="logo">
-      <img src="assets/lime.png" alt="lime">
-      <span class = "text">P&K</span>
+    <div class="navbar-logo">
+      <span>LimeSites</span>
     </div>
-    <ul class="options">
-      <li class="option to-none"><a href="#home">Strona Głowna</a></li>
-      <li class="option to-none"><a href="#about">O nas</a></li>
-      <li class="option to-none"><a href="#prices">Kontakt</a></li> 
-      <li> <button class="dark-mode-test dark-mode-btn">Ciemny motyw</button></li>
-      <div class="hamburger">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-    </ul>
-  <!-- dark-mode-test -->
+    <div class="navbar-button">
+      <button class = "button">Get In Touch</button>
+    </div>
   </div>
-  <div class="started-page" id="home">
-    <img src="/assets/lime-svg.png" alt="" srcset="" class="lime-photo started-page-lime-right">
-    <div class="header-start">
-      <span class="header-start-heading"></span>
-      <a href="#about"><button class="btn started-page-btn">Zaczynamy!</button></a>
-      
-      <img src="assets/undraw_windows_q9m0.svg" class = "main-page-image landing-page-windows">
+  <div class="hello-section">
+    <div class="header">
+      Let us create <span>your</span> dream website
     </div>
-    <img src="/assets/lime.png" alt="" srcset="" class="lime-photo started-page-lime-left">
-    
+    <div class="hello-image">
+      <img class = "img" src="./assets/undraw_windows_q9m0.svg" alt="">
+    </div>
+    <img class = "svg" src="./assets/wave.svg" alt="">
   </div>
-  <div class="content" id="about">
-    
-    <div class="container-div">
-      <div class="container-div-text">
-        <p class = "first-to-animate">Coś o nas </p>
-        Jesteśmy dwójką początkujących <span class = "text-bold">web developerów</span>. 
-        Tworzymy strony interetowe od września 2019 i wychodzi nam to coraz lepiej! 
-        Używamy takich języków jak: <span class = "text-bold"> HTML, CSS, JavaScript, Python</span>, ale ciągle się uczymy nowych technologi także w przyszłości będzie ich więcej. 
-        Do przechowywania naszych projektów używamy GitHub. 
-       <a href="https://github.com/limesites" target = "_blank">
-        <span>
-          Tutaj
-        </span>
-      </a>  
-      możesz zobaczyć nasze wszystkie projekty, które wykonaliśmy.
-
-      </div>
-      <div class="container-div-image">
-        <img src="assets/web_developer.svg">
-      </div>
-    </div>
-
-    <a href="#projects" class="arrow-link first-arrow">
-      <img src="assets/arrow.svg" class="arrow">
-    </a>
-    <div class="container-div" id="projects">
-      <div class="container-div-image">
-        <img src="assets/static_assets.svg">
-      </div>
-      <div class="container-div-text">
-        <p>To co już zrobiliśmy...</p>
-        Nie mamy zbyt wiele wykonanych projektów, ale w końcy po to powstała ta strona. Chcemy tworzyć strony internetowe <span class = "text-bold">za darmo</span>, aby nabrać doświadczenia oraz zareklamować się.
-      </div>
-    </div>
-    <div class="container-div projects-galery">
-      <img src="assets/portfolio_website.svg" class="project-image">
-      <img src="assets/portfolio_website.svg" class="project-image">
-      <img src="assets/portfolio_website.svg" class="project-image">
-    </div>
-    <a href="#prices" class="arrow-link">
-      <img src="assets/arrow.svg" class="arrow">
-    </a>
-    <div class="container-div" id="prices">
-      <div class="container-div-text">
-        <p>Koszt tworzenia strony</p>
-        Aktualnie tworzymy strony internetowe <span class = "text-bold">za darmo</span> aby zdobyć doświadczenie i się zareklamować. Jedyne rzeczy, za które musisz zapłacić
-        to domena i hosting. <span class = "text-bold">Zajmujemy się tylko kodem</span>!
-      </div>
-      <div class="container-div-image">
-        <img src="assets/payment-lime.svg">
-      </div>
-    </div>
-    <div class="container-div">
-      <div class="container-div-image">
-        <img src="assets/contact-svg.svg" class="contact-svg">
-      </div>
-      <div class="container-div-text">
-        <p>Kontakt</p>
-        Możesz się z nami skontaktować poprzez e-mail oraz discord.
-        <br />
-
-        <div class="contact-section">
-          <div class="contact">
-            <a href="https://github.com/limesites" target = "_blank">
-              <img src="assets/github-png-logo.png" class="contact-logos">
-            </a>
-          </div>
-          <div class="contact">
-            <img src="assets/gmail-logo.png" class="contact-logos">
-            <p>Gmail</p>
-          </div>
-          
-        </div>
-      </div>
-
-    </div>
-    <a href="#home" class="arrow-link"> 
-      <img src="assets/arrow.svg" class = "arrow">
-    </a>
+  <div class="aboutus-section">
+    <div class="aboutus-header">Hey, we are Piotrek and Konrad.  Nice to meet you.</div>
+    <span>
+      We attend technical college in the field of programming. We love creating websites.  We are starting our career with freelancing so we are creating websites for free. We are reliable, we keep our word and we are passionate about creating websites.
+    </span>
   </div>
-
-  <div class="footer">
-    <div>Icons made by <a href="https://www.flaticon.com/authors/good-ware" title="Good Ware">Good Ware</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-    <div>Icons made by <a href="https://www.freepik.com" title="Freepik" target="_blank">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon" target="_blank">www.flaticon.com</a></div>
-    <div>Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+  <div class="contact-section">
+    <img class = "svg contact-svg" src="./assets/wave.svg" alt="">
+    <div class="contact-header">
+      Let’s make something amazing
+    </div>
+    <div class="contact-container">
+      <div class="contact-container-header">
+        Contact
+      </div>
+      <div class="contact-container-header">
+        We are seeking for opportuinities to create website for free to gain experience. You can visit or contact us there:
+      </div>
+    </div>
   </div>
-  <script src="scripts/typed.js"></script>
-  <script src="scripts/animation.js"></script>
-  <script src="scripts/script.js"></script>
-  
-  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js"></script>
+  <script src = "scripts/script.js"></script>
 </body>
-
 </html>
